@@ -1,0 +1,61 @@
+apiVersion: v1
+entries:
+  app-chart:
+  - apiVersion: v1
+    created: "2021-01-23T21:47:29.4839287+07:00"
+    description: A particular application Helm chart for Kubernetes.
+    digest: 58017fda0e536d35e34a01791f47f53751036f55b4a8f0d7cf8a3cf7188c88a5
+    home: http://www.actonica.ru
+    maintainers:
+    - email: company@actonica.ru
+      name: Actonica Containers Team
+    name: app-chart
+    sources:
+    - https://github.com/actonica/app-chart
+    urls:
+    - app-chart-1.2.tgz
+    version: "1.2"
+  - apiVersion: v1
+    created: "2021-01-23T21:47:29.4829205+07:00"
+    description: A particular application Helm chart for Kubernetes.
+    digest: deb583d796b6bb4a9e4f8677aee15bf2caccf9697b7dfc3d341c33040e4bb363
+    home: http://www.actonica.ru
+    maintainers:
+    - email: company@actonica.ru
+      name: Actonica Containers Team
+    name: app-chart
+    sources:
+    - https://github.com/actonica/app-chart
+    urls:
+    - app-chart-1.1.tgz
+    version: "1.1"
+  - apiVersion: v1
+    created: "2021-01-23T21:47:29.4908904+07:00"
+    description: A particular application Helm chart for Kubernetes.
+    digest: c8c72fbc964e84b58122663cc14105753039e1d47b914b3282bac2eedad1c883
+    home: http://www.actonica.ru
+    maintainers:
+    - email: company@actonica.ru
+      name: Actonica Containers Team
+    name: app-chart
+    sources:
+    - https://github.com/actonica/app-chart
+    urls:
+    - app-chart-1.tgz
+    version: "1"
+  simple-app-runner:
+  - apiVersion: v1
+    created: "2021-01-23T21:47:29.4919168+07:00"
+    description: A particular application Helm chart for Kubernetes.
+    digest: d53fb737f3d7cf0c6f3986d7721bf1fabb91b415b9fab173d807f675ce32f343
+    home: http://www.actonica.ru
+    maintainers:
+    - email: company@actonica.ru
+      name: Actonica Containers Team
+    name: simple-app-runner
+    sources:
+    - https://github.com/actonica/app-chart
+    urls:
+    - simple-app-runner-1.0.tgz
+    version: "1.0"
+generated: "2021-01-23T21:47:29.4659852+07:00"
