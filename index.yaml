@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   app-chart:
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6197101+07:00"
+    created: "2023-07-06T18:16:48.8084332+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: c81bf0e13b07288670b562244be30fe9043dc0920685b3d824cb33364ffb72df
     home: http://www.actonica.ru
@@ -16,7 +16,7 @@ entries:
     - app-chart-1.2.tgz
     version: "1.2"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6197101+07:00"
+    created: "2023-07-06T18:16:48.8084332+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: deb583d796b6bb4a9e4f8677aee15bf2caccf9697b7dfc3d341c33040e4bb363
     home: http://www.actonica.ru
@@ -30,7 +30,7 @@ entries:
     - app-chart-1.1.tgz
     version: "1.1"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6207071+07:00"
+    created: "2023-07-06T18:16:48.8104034+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: c8c72fbc964e84b58122663cc14105753039e1d47b914b3282bac2eedad1c883
     home: http://www.actonica.ru
@@ -46,7 +46,7 @@ entries:
   mssql-linux:
   - apiVersion: v1
     appVersion: 14.0.3023.8
-    created: "2023-07-06T17:57:17.6207553+07:00"
+    created: "2023-07-06T18:16:48.8114012+07:00"
     description: FORK - SQL Server 2017 Linux Helm Chart, Successfully works with
       SQL Server 2019
     digest: 4c055afa17d7a40755fb62aa099b057c6dc0ae6f2a783abb44121af3587b5e72
@@ -60,8 +60,23 @@ entries:
     version: 0.11.4
   simple-app-runner:
   - apiVersion: v1
+    appVersion: "1.44"
+    created: "2023-07-06T18:16:48.8323448+07:00"
+    description: A particular application Helm chart for Kubernetes.
+    digest: 25cdecf44b101c96a14a515081b2b79aadb16fddcd1e513e5634a9761f80c867
+    home: http://www.actonica.ru
+    maintainers:
+    - email: company@actonica.ru
+      name: Actonica Containers Team
+    name: simple-app-runner
+    sources:
+    - https://github.com/actonica/app-chart
+    urls:
+    - simple-app-runner-1.44.tgz
+    version: "1.44"
+  - apiVersion: v1
     appVersion: "1.43"
-    created: "2023-07-06T17:57:17.6431356+07:00"
+    created: "2023-07-06T18:16:48.8303495+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: cd4e9ee0fd28252f7ad9fcc3a77398959babaa0a4a7d5fb9ca254cd5c8ffa369
     home: http://www.actonica.ru
@@ -76,7 +91,7 @@ entries:
     version: "1.43"
   - apiVersion: v1
     appVersion: "1.42"
-    created: "2023-07-06T17:57:17.6421126+07:00"
+    created: "2023-07-06T18:16:48.8303495+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: d90d402d36cefa85bb7747879ee26e49f2a2b87dd3bca0168f7f06754070c703
     home: http://www.actonica.ru
@@ -91,7 +106,7 @@ entries:
     version: "1.42"
   - apiVersion: v1
     appVersion: "1.41"
-    created: "2023-07-06T17:57:17.6421126+07:00"
+    created: "2023-07-06T18:16:48.8293522+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 0515f8ac635e2464c7b3737ac7089fff865ed72600968593ea281ed1ae76d650
     home: http://www.actonica.ru
@@ -106,7 +121,7 @@ entries:
     version: "1.41"
   - apiVersion: v1
     appVersion: "1.39"
-    created: "2023-07-06T17:57:17.6386837+07:00"
+    created: "2023-07-06T18:16:48.8283548+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 71cf6442fb03a8544b97a560230cf5c12531075071b2f9b11d98f93f7a1a816f
     home: http://www.actonica.ru
@@ -121,7 +136,7 @@ entries:
     version: "1.39"
   - apiVersion: v1
     appVersion: "1.38"
-    created: "2023-07-06T17:57:17.6376862+07:00"
+    created: "2023-07-06T18:16:48.8273577+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: ddcf527a136711d4f8e84b6f227fd65f1d4c6ee1113208b842eb707080677694
     home: http://www.actonica.ru
@@ -136,7 +151,7 @@ entries:
     version: "1.38"
   - apiVersion: v1
     appVersion: "1.37"
-    created: "2023-07-06T17:57:17.6376862+07:00"
+    created: "2023-07-06T18:16:48.8273577+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 145fad88eae088ae1ca954053f27a406c2fb580605bc11df324728b7eeda04c9
     home: http://www.actonica.ru
@@ -151,7 +166,7 @@ entries:
     version: "1.37"
   - apiVersion: v1
     appVersion: "1.36"
-    created: "2023-07-06T17:57:17.6406534+07:00"
+    created: "2023-07-06T18:16:48.8293522+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 7c0921f027503428dad1150ad38b8fe8abb02e45d43a5b4211596cb318603156
     home: http://www.actonica.ru
@@ -166,7 +181,7 @@ entries:
     version: "1.36"
   - apiVersion: v1
     appVersion: "1.36"
-    created: "2023-07-06T17:57:17.6366889+07:00"
+    created: "2023-07-06T18:16:48.8263609+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: eaa9f1efa95187acbca82a5d97432da18a0238a88083d4925a1b524be3c98202
     home: http://www.actonica.ru
@@ -181,7 +196,7 @@ entries:
     version: "1.36"
   - apiVersion: v1
     appVersion: "1.35"
-    created: "2023-07-06T17:57:17.6366889+07:00"
+    created: "2023-07-06T18:16:48.8263609+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: c13d75c7a2086ddfe238fd5df64a5b8532cf2914b10c9bff4b7ab69e6a305163
     home: http://www.actonica.ru
@@ -196,7 +211,7 @@ entries:
     version: "1.35"
   - apiVersion: v1
     appVersion: "1.34"
-    created: "2023-07-06T17:57:17.6356666+07:00"
+    created: "2023-07-06T18:16:48.8253637+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 105125a5ce2e51c6558d4704428786c896a17e80dea3a6ab8821f0285b53e878
     home: http://www.actonica.ru
@@ -211,7 +226,7 @@ entries:
     version: "1.34"
   - apiVersion: v1
     appVersion: "1.33"
-    created: "2023-07-06T17:57:17.6356666+07:00"
+    created: "2023-07-06T18:16:48.8253637+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 50dda5e855cf4a57692b72c519d4c4537efc468e789bd9f275ec159cc9a401ed
     home: http://www.actonica.ru
@@ -226,7 +241,7 @@ entries:
     version: "1.33"
   - apiVersion: v1
     appVersion: "1.32"
-    created: "2023-07-06T17:57:17.6346929+07:00"
+    created: "2023-07-06T18:16:48.8243662+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 6ac937cd872f5b3504f45070a62a0609c00adca2683904b1147bb9f042b4e9c7
     home: http://www.actonica.ru
@@ -241,7 +256,7 @@ entries:
     version: "1.32"
   - apiVersion: v1
     appVersion: "1.31"
-    created: "2023-07-06T17:57:17.6346929+07:00"
+    created: "2023-07-06T18:16:48.8233687+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 16dc66de013894586f196fb88c76752b9ffad27d9ca984c32b86ff51ea497389
     home: http://www.actonica.ru
@@ -256,7 +271,7 @@ entries:
     version: "1.31"
   - apiVersion: v1
     appVersion: "1.30"
-    created: "2023-07-06T17:57:17.6336718+07:00"
+    created: "2023-07-06T18:16:48.8233687+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: c7d1eb55df3339f6f2961f5a3f7a07acb6a872a3095a6d4c6aed0828c83481ff
     home: http://www.actonica.ru
@@ -271,7 +286,7 @@ entries:
     version: "1.30"
   - apiVersion: v1
     appVersion: "1.29"
-    created: "2023-07-06T17:57:17.6326746+07:00"
+    created: "2023-07-06T18:16:48.8223716+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 53b908f1428540eb7706833aee8571e645dd8a70ea0000fef39fa4ce7b7cdd82
     home: http://www.actonica.ru
@@ -286,7 +301,7 @@ entries:
     version: "1.29"
   - apiVersion: v1
     appVersion: "1.28"
-    created: "2023-07-06T17:57:17.6326746+07:00"
+    created: "2023-07-06T18:16:48.8223716+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 1a54cc6483feb6630b6e4e967b2539d676f974aaea92132073596101b7b4c99e
     home: http://www.actonica.ru
@@ -301,7 +316,7 @@ entries:
     version: "1.28"
   - apiVersion: v1
     appVersion: "1.27"
-    created: "2023-07-06T17:57:17.6316768+07:00"
+    created: "2023-07-06T18:16:48.8213741+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 05ab9ab96ba5301fdfd6393c1c1665adf24c6b32ca1f7c6175c70d117d59e4c8
     home: http://www.actonica.ru
@@ -316,7 +331,7 @@ entries:
     version: "1.27"
   - apiVersion: v1
     appVersion: "1.26"
-    created: "2023-07-06T17:57:17.6316768+07:00"
+    created: "2023-07-06T18:16:48.8213741+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 00ca0d09144f73ce54f227038ee02b374c2a7474932929ffdce70f610530a0db
     home: http://www.actonica.ru
@@ -330,7 +345,7 @@ entries:
     - simple-app-runner-1.26.tgz
     version: "1.26"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6306795+07:00"
+    created: "2023-07-06T18:16:48.820377+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 060582b00c505f3cf52d39fa28f7579212d362d9344c0b900f998485eff4a67c
     home: http://www.actonica.ru
@@ -344,7 +359,7 @@ entries:
     - simple-app-runner-1.25.tgz
     version: "1.25"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6306795+07:00"
+    created: "2023-07-06T18:16:48.8193795+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 47dee382ccacf5baf3078aca3cd6ffebfb6f5c1e45f5a171b969a0eed4e5dddd
     home: http://www.actonica.ru
@@ -358,7 +373,7 @@ entries:
     - simple-app-runner-1.24.tgz
     version: "1.24"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6296822+07:00"
+    created: "2023-07-06T18:16:48.8193795+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 20a6791fc33c0a6b1229fcbc7a6830f8ad20e7854f4e96fd2b778bc58ec6f45f
     home: http://www.actonica.ru
@@ -372,7 +387,7 @@ entries:
     - simple-app-runner-1.23.tgz
     version: "1.23"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6286855+07:00"
+    created: "2023-07-06T18:16:48.8184058+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 5a23216d7a450a7e973ce2a3d1cfbd1a5b6c59cf6eb26ee06e36645c87334d3e
     home: http://www.actonica.ru
@@ -386,7 +401,7 @@ entries:
     - simple-app-runner-1.22.tgz
     version: "1.22"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6286855+07:00"
+    created: "2023-07-06T18:16:48.8184058+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: a9b3f570b3c438363b9597125d485f9a15ad251b925fc1cad747517aefcbecb1
     home: http://www.actonica.ru
@@ -400,7 +415,7 @@ entries:
     - simple-app-runner-1.21.tgz
     version: "1.21"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6276875+07:00"
+    created: "2023-07-06T18:16:48.8173847+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: a3f7fdd6991755e28aa8eb1a18a3132161c805ea735c7b1e8eecb37fde7dd101
     home: http://www.actonica.ru
@@ -414,7 +429,7 @@ entries:
     - simple-app-runner-1.20.tgz
     version: "1.20"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6266902+07:00"
+    created: "2023-07-06T18:16:48.8163875+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: d973839140b995172f95fdd6e9d4758fe8e926460d483c7fdc857a0c2d9c77f2
     home: http://www.actonica.ru
@@ -428,7 +443,7 @@ entries:
     - simple-app-runner-1.19.tgz
     version: "1.19"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6256929+07:00"
+    created: "2023-07-06T18:16:48.8163875+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 1d294670ba52674cdd3d6d44282a5dd086842b60449e5c64cda6034c51f1f2d6
     home: http://www.actonica.ru
@@ -442,7 +457,7 @@ entries:
     - simple-app-runner-1.18.tgz
     version: "1.18"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6256929+07:00"
+    created: "2023-07-06T18:16:48.8154082+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 6892aa26e63f9fbfa63cd8e125418945217889602b4f29281759f7e55aa9d5e9
     home: http://www.actonica.ru
@@ -456,7 +471,7 @@ entries:
     - simple-app-runner-1.17.tgz
     version: "1.17"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6246956+07:00"
+    created: "2023-07-06T18:16:48.8154082+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 33febf28001281b27187942121df9cc02a0660fa71f801f88321b25ef5d6318e
     home: http://www.actonica.ru
@@ -470,7 +485,7 @@ entries:
     - simple-app-runner-1.16.tgz
     version: "1.16"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6246956+07:00"
+    created: "2023-07-06T18:16:48.8144173+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 822479c6817e27500475f5c992e5e05b299951293e3cf308c06ddb7ceb8505d7
     home: http://www.actonica.ru
@@ -484,7 +499,7 @@ entries:
     - simple-app-runner-1.15.tgz
     version: "1.15"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6236982+07:00"
+    created: "2023-07-06T18:16:48.8144173+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 11159956dcc311e4b1bc347c5fc0cf8770a643a2aaf76fcb4c61ea80096fac2a
     home: http://www.actonica.ru
@@ -498,7 +513,7 @@ entries:
     - simple-app-runner-1.14.tgz
     version: "1.14"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6236982+07:00"
+    created: "2023-07-06T18:16:48.8144173+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 8583b671d406e7779ccf1ef226a01489ece81be009051e32e247eb2522fa66b2
     home: http://www.actonica.ru
@@ -512,7 +527,7 @@ entries:
     - simple-app-runner-1.13.tgz
     version: "1.13"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6236982+07:00"
+    created: "2023-07-06T18:16:48.8134199+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 6da9bde3bc49544d0ce67df247a49ad5b65603a1934a24279d8216479aa4c93a
     home: http://www.actonica.ru
@@ -526,7 +541,7 @@ entries:
     - simple-app-runner-1.12.tgz
     version: "1.12"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.622701+07:00"
+    created: "2023-07-06T18:16:48.8134199+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 95934bb55c17daa331346020a731643a6388691aba0a74288dd2c64ec5b72be2
     home: http://www.actonica.ru
@@ -540,7 +555,7 @@ entries:
     - simple-app-runner-1.11.tgz
     version: "1.11"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6217041+07:00"
+    created: "2023-07-06T18:16:48.8123982+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 14dac47086be89201f8f212e3121ccc5ab4f509fe0160fa914b166f9e2617a35
     home: http://www.actonica.ru
@@ -554,7 +569,7 @@ entries:
     - simple-app-runner-1.10.tgz
     version: "1.10"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6451314+07:00"
+    created: "2023-07-06T18:16:48.8345878+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 27631e1814606ee47c02f6fbf4080c97777246dd239ab53b147a0e421ae39f29
     home: http://www.actonica.ru
@@ -568,7 +583,7 @@ entries:
     - simple-app-runner-1.9.tgz
     version: "1.9"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6451314+07:00"
+    created: "2023-07-06T18:16:48.8345878+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 9da35a8676323ade35196551ff1aef0fbe15689dcbce9d32d3e6471f7d50ae5f
     home: http://www.actonica.ru
@@ -582,7 +597,7 @@ entries:
     - simple-app-runner-1.8.tgz
     version: "1.8"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6451314+07:00"
+    created: "2023-07-06T18:16:48.8345878+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 2406b8f7123866f62809151330afb6d1fe989a0dfba75542026f6604957db285
     home: http://www.actonica.ru
@@ -596,7 +611,7 @@ entries:
     - simple-app-runner-1.7.tgz
     version: "1.7"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6441089+07:00"
+    created: "2023-07-06T18:16:48.8333687+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 48698d1b0668baad093c3cb70805bfd3eb79c6df8cda1b26e84e57ba28f3d80a
     home: http://www.actonica.ru
@@ -610,7 +625,7 @@ entries:
     - simple-app-runner-1.6.tgz
     version: "1.6"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6441089+07:00"
+    created: "2023-07-06T18:16:48.8333687+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 8b4caa7bd345920de883442b7e63d632035af6a53acb4d3c2be348e19aac918a
     home: http://www.actonica.ru
@@ -624,7 +639,7 @@ entries:
     - simple-app-runner-1.5.tgz
     version: "1.5"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.639687+07:00"
+    created: "2023-07-06T18:16:48.8283548+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 51dfb25e1059e8f372b266a9eea6f7c17dbf829e66ac6b22bbdb604200ba9de8
     home: http://www.actonica.ru
@@ -638,7 +653,7 @@ entries:
     - simple-app-runner-1.4.tgz
     version: "1.4"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6326746+07:00"
+    created: "2023-07-06T18:16:48.8223716+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 6725b23a3d541623ad674d3992c0e4e874ec07ca0a8a083ef80a05e254464bb1
     home: http://www.actonica.ru
@@ -652,7 +667,7 @@ entries:
     - simple-app-runner-1.3.tgz
     version: "1.3"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6266902+07:00"
+    created: "2023-07-06T18:16:48.8173847+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 88c406475d9e4ab88bd3993fc0ec20b54a2db763bdc2c8b5d0a9992859721da3
     home: http://www.actonica.ru
@@ -666,7 +681,7 @@ entries:
     - simple-app-runner-1.2.tgz
     version: "1.2"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6217041+07:00"
+    created: "2023-07-06T18:16:48.8123982+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: 1a974207ea6dc7673cfc9d05590bb0fef51ef36b58080209992b81098d3689bb
     home: http://www.actonica.ru
@@ -680,7 +695,7 @@ entries:
     - simple-app-runner-1.1.tgz
     version: "1.1"
   - apiVersion: v1
-    created: "2023-07-06T17:57:17.6207553+07:00"
+    created: "2023-07-06T18:16:48.8114012+07:00"
     description: A particular application Helm chart for Kubernetes.
     digest: d53fb737f3d7cf0c6f3986d7721bf1fabb91b415b9fab173d807f675ce32f343
     home: http://www.actonica.ru
@@ -693,4 +708,4 @@ entries:
     urls:
     - simple-app-runner-1.0.tgz
     version: "1.0"
-generated: "2023-07-06T17:57:17.617719+07:00"
+generated: "2023-07-06T18:16:48.8074176+07:00"
